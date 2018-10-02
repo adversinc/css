@@ -1,7 +1,12 @@
-/* NO COMPRESS */
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700&subset=cyrillic');
+
 @media only screen
 and (min-device-width: 320px)
 and (max-device-width: 480px)  {
+	body {
+		font-family: Merriweather;
+	}
+
 	#pageHeaderContent a img {
 		position: static;
 		display: none;
@@ -13,7 +18,7 @@ and (max-device-width: 480px)  {
 
 	#pageHeader h1 a {
 		position: static;
-		font: 90px Georgia, 'Times New Roman', Times, serif;
+		font-size: 90px;
 	}
 
 	#pageHeader {
@@ -111,20 +116,11 @@ and (max-device-width: 480px)  {
 	}
 
 	.lastnews {
-		width: 100vw;
-		background: #e6e6e6;
+		display: none;
 	}
 
 	.lastnews div:nth-child(3) {
 		display: none;
-	}
-
-	#pageInsert .dateInsert {
-		font: 70px Georgia, 'Times New Roman', Times, serif;
-	}
-
-	#pageInsert .headerInsert {
-		font: 70px Georgia, 'Times New Roman', Times, serif;
 	}
 
 	#pageInsert .textinsert {
@@ -133,7 +129,7 @@ and (max-device-width: 480px)  {
 	}
 
 	#pageInsert h1 {
-		font: 90px Georgia, 'Times New Roman', Times, serif;
+		font-size: 90px;
 		font-weight: bold;
 		text-align: center;
 		color: #444;
@@ -180,7 +176,7 @@ and (max-device-width: 480px)  {
 		background: #f0f0f0;
 		border: 10px solid #e6e6e6;
 		border-top: 0;
-		font: 60px Georgia, Times New Roman, Serif;
+		font-size: 40px;
 	}
 
 	.newsItem h5 {
@@ -227,7 +223,7 @@ and (max-device-width: 480px)  {
 	}
 
 	h4 {
-		font: bold 70px Georgia, 'Times New Roman', Times, Serif;
+		font-size: 70px;
 		background: #e6e6e6;
 		margin: 0;
 		padding-bottom: 20px;
@@ -236,7 +232,7 @@ and (max-device-width: 480px)  {
 	}
 
 	h2 {
-		font: normal 80px Georgia, 'Times New Roman', Times, Serif;
+		font-size: 80px;
 		text-align: center;
 		margin: 0 20px 0 10px;
 		font-weight: bold;
