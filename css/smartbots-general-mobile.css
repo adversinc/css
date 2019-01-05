@@ -65,6 +65,10 @@
 		margin-bottom: 20px;
 	}
 
+	.account-top-menu {
+		width: 100vw;
+	}
+
 	.account-top-menu .caption {
 		font-size: 18px
 	}
