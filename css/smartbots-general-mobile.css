@@ -3,7 +3,6 @@
 		min-width: auto;
 	}
 
-
 	header {
 		width: 100vw;
 	}
@@ -28,11 +27,11 @@
 		width: 100vw;
 	}
 
-
+/*
 	#pageBody {
 		display: none;
 	}
-
+*/
 
 	#leftColumn .component--translation-invite menuAnnounce {
 		display: none;
