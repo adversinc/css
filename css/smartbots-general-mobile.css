@@ -93,6 +93,11 @@
 		right: -20vw;
 	}
 
+	page_content .content {
+		flex-direction: column;
+		max-width: 100vw;
+	}
+
 
 	footer .content {
 		width: 100vw;
