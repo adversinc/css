@@ -11,8 +11,19 @@
 		width: 100vw;
 		height: 17vw;
 	}
+	header>.content .menu-toggle {
+		margin: 0;
+		display: block;
+		position: absolute;
+		left: 5vw;
+		top: 3vw;
+	}
+	
+	header>.content .menu-toggle:before {
+    font: 40px smartbots;
+}
 
-	header > .content .logo {
+	header > .content .logo{
 		margin: 0px 20vw;
 		width: 60vw;
 		height: 15vw;
@@ -99,7 +110,8 @@
 	}
 
 	page_content #pageBody {
-		width: 100vw;
+		width: 91vw;
+		margin-left: 9vw;
 	}
 
 

@@ -1,0 +1,34 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+
+	.dashboard-bots .bot{
+	    max-width: 83vw;
+		margin: 13vw 0 80vw 0;
+	
+	}
+	
+	.dashboard-bots .bot .image{
+		width: 80vw;
+		height: 60vw;
+	}
+	
+	.dashboard-bots .bot .name {
+		top: -12vw;
+		left: 23vw;
+		font-size: 30px;
+	}
+	
+	.dashboard-bots .bot .details {
+		top: 63vw;
+		left: 0;
+	}
+	
+	.dashboard-bots .bot .details .entry {
+		font-size: 20px;
+		width: 80vw;
+		height: auto;
+		text-align: left;
+	}
+	
+}
+	
