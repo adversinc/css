@@ -1,0 +1,220 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+
+.dashboardNav{
+	width: 91vw;
+	text-align: left;
+	margin: 0 0 30px 0;
+}
+
+.dashboardNav label{
+	margin-left: 0;
+	margin-top: 10px;
+	display: block;
+	text-align: left;
+}
+
+
+
+.dashboardBlocks.bots #dashboardBots{
+	width: 82vw;
+}
+
+h2.dashH{
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+
+#dashboardBots .switch{
+	font-size: 15px;
+    float: none;
+    position: absolute;
+    top: 30px;
+}
+
+
+.messagingLimit{
+	height: 20vw;
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+#botsList.compact{
+	height: 200px;
+}
+
+#botsList .bot{
+	width: 200px;
+    height: 145px;
+}
+	
+#botsList .bot .name{
+	font-size: 15px;
+	position: static;
+}
+
+#botsList .bot .image {
+    width: 190px;
+    height: 100px;
+}	
+	
+#botsList .bot .status{
+    right: 0; 
+    top: 110px;
+	left: 10px;
+    font-size: 15px;
+}
+
+#botsList .bot .type {
+    font-size: 12px;
+    right: 0;
+    top: 125px;
+    left: 10px;
+}
+
+#botsList .bot .region {
+    font-size: 12px;
+    top: 112px;
+}
+
+.dashMainLink2{
+	float: none;
+}
+
+.dashMainLink2 a{
+	min-width: 60vw;
+    height: 10vw;
+    font-size: 17px;
+}
+
+.groupHelperLinks a{
+	display: block;
+	font-size: 15px;
+    margin-bottom: 15px;
+}
+
+
+/*тут начинается свернутый вариант
+
+.groupItem3{
+	margin: 46px 0 40px 0;
+	width: 82vw;
+}
+
+.groupItem3 a.deleteGroup{
+	position: static;
+	display: block;
+}
+
+.groupItem3 .groupName{
+	position: static;
+}
+
+.groupItem3 .groupStatus{
+	position: static;
+	padding: 5px 0 5px 5px;
+}
+
+.groupItem3 .members{
+	position: static;
+	padding: 5px 0 5px 5px;
+}
+
+.groupItem3 .members .info:after{
+	display: none;
+}
+
+.groupItem3 .members .info span{
+	font-size: 15px;
+}
+
+.groupItem3 .members .details{
+	display: none;
+}
+
+.groupItem3 .linksBlock{
+	width: 26vw;
+	font-size: 15px;
+}
+
+.groupItem3 .bot{
+    position: static;
+    font-size: 15px;
+	padding: 5px 0 5px 5px;
+}
+
+.groupItem3 .bot a{
+	font-size: 12px;
+}
+
+.groupItem3 .tags{
+	display: none;
+}
+
+.groupItem3 .services{
+	display: none;
+}
+
+.groupItem3 .detachedStatus{
+	position: static;
+}
+
+.groupItem3 .detachedStatus.warning{
+	position: static;
+	width: 82vw;
+}
+
+
+
+тут он заканчивается*/
+
+
+
+/*тут начинается раскрытый вариант
+
+	.groupItem3 {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #eff6fb;
+    border: #1680f6 1px solid;
+    margin: 0;
+    padding: 8px;
+    z-index: 10000;
+    box-sizing: border-box;
+}
+
+	.groupItem3 .services {
+    display: inline-block;
+    position: absolute;
+    left: 8px;
+    right: 8px;
+    bottom: 118px;
+    margin: 0;
+}
+
+.groupItem3 .services.subscription {
+    bottom: 8px;
+    left: 8px;
+    right: 8px;
+    width: auto;
+    text-align: right;
+}
+
+
+тут он заканчивается*/
+
+
+
+
+
+
+
+
+.pageNote{
+	width: 82vw;
+
+
+}
