@@ -53,11 +53,16 @@
 		background: #1c3c61;
 		position: fixed;
 		left: 0px;
-		top: 0px;
+		top: 64px;
+		height: 100%;
+		width: 70%;
 		margin-left: 0px;
 		padding-left: 21px;
 		z-index: 2005;
-		height: 100%;
+	}
+
+	#leftColumn.open {
+		display: block;
 	}
 
 	#leftColumn ul#navMenu li.header {
