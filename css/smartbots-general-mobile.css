@@ -36,6 +36,7 @@
 
 	header .visual {
 		width: 100vw;
+		display: none;
 	}
 
 /*
@@ -68,17 +69,18 @@
 	#leftColumn ul#navMenu li.header {
 		color: #e6e6e6;
 		font-size: 20px;
+		margin: 0.7em 0;
+		padding-left: 0;
 	}
 
-	#leftColumn ul#navMenu li a: first-of-type {
-		text-decoration: underline;
-		margin-top: 10px;
+	#leftColumn ul#navMenu li {
+		padding-left: 10px;
 	}
 
 	#leftColumn ul#navMenu li a {
 		color: #cccccc;
 		font-size: 18px;
-		margin-bottom: 20px;
+		margin: 0.7em 0;
 	}
 
 	.account-top-menu {
@@ -116,7 +118,7 @@
 
 	page_content #pageBody {
 		width: 91vw;
-		margin-left: 9vw;
+		margin-left: 20px;
 	}
 
 
