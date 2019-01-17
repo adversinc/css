@@ -63,12 +63,13 @@
 		box-shadow: 0 0 20px;
 	}
 
-	#leftColumn:before {
-		position: fixed;
-	}
-
 	#leftColumn.open {
 		display: block;
+	}
+
+	#leftColumn.open:before {
+		content: "";
+		position: fixed;
 	}
 
 	#leftColumn ul#navMenu li.header {
