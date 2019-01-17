@@ -105,79 +105,76 @@
 	}
 
 
-	/*тут начинается свернутый вариант
+	/* Dashboard group */
 
-	.groupItem3{
+	.groupItem3.mobile-closed {
 		margin: 46px 0 40px 0;
 		width: 82vw;
 	}
 
-	.groupItem3 a.deleteGroup{
+	.groupItem3.mobile-closed a.deleteGroup{
 		position: static;
 		display: block;
 	}
 
-	.groupItem3 .groupName{
+	.groupItem3.mobile-closed .groupName{
 		position: static;
 	}
 
-	.groupItem3 .groupStatus{
-		position: static;
-		padding: 5px 0 5px 5px;
-	}
-
-	.groupItem3 .members{
+	.groupItem3.mobile-closed .groupStatus{
 		position: static;
 		padding: 5px 0 5px 5px;
 	}
 
-	.groupItem3 .members .info:after{
+	.groupItem3.mobile-closed .members{
+		position: static;
+		padding: 5px 0 5px 5px;
+	}
+
+	.groupItem3.mobile-closed .members .info:after{
 		display: none;
 	}
 
-	.groupItem3 .members .info span{
+	.groupItem3.mobile-closed .members .info span{
 		font-size: 15px;
 	}
 
-	.groupItem3 .members .details{
+	.groupItem3.mobile-closed .members .details{
 		display: none;
 	}
 
-	.groupItem3 .linksBlock{
+	.groupItem3.mobile-closed .linksBlock{
 		width: 26vw;
 		font-size: 15px;
 	}
 
-	.groupItem3 .bot{
+	.groupItem3.mobile-closed .bot{
 			position: static;
 			font-size: 15px;
 		padding: 5px 0 5px 5px;
 	}
 
-	.groupItem3 .bot a{
+	.groupItem3.mobile-closed .bot a{
 		font-size: 12px;
 	}
 
-	.groupItem3 .tags{
+	.groupItem3.mobile-closed .tags{
 		display: none;
 	}
 
-	.groupItem3 .services{
+	.groupItem3.mobile-closed .services{
 		display: none;
 	}
 
-	.groupItem3 .detachedStatus{
+	.groupItem3.mobile-closed .detachedStatus{
 		position: static;
 	}
 
-	.groupItem3 .detachedStatus.warning{
+	.groupItem3.mobile-closed .detachedStatus.warning{
 		position: static;
 		width: 82vw;
 	}
 
-
-
-	тут он заканчивается*/
 	/*тут начинается раскрытый вариант
 
 		.groupItem3 {
