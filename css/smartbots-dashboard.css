@@ -106,10 +106,9 @@
 
 
 	/* Dashboard group */
-
 	.groupItem3.mobile-closed {
-		margin: 46px 0 40px 0;
-		width: 82vw;
+		margin: 1em 0;
+		width: 100%;
 	}
 
 	.groupItem3.mobile-closed a.deleteGroup{
@@ -124,6 +123,10 @@
 	.groupItem3.mobile-closed .groupStatus{
 		position: static;
 		padding: 5px 0 5px 5px;
+	}
+
+	.groupItem3.NOTPAID .groupStatus {
+		background-position: 70px center;
 	}
 
 	.groupItem3.mobile-closed .members{
@@ -154,8 +157,8 @@
 		padding: 5px 0 5px 5px;
 	}
 
-	.groupItem3.mobile-closed .bot a{
-		font-size: 12px;
+	.groupItem3.mobile-closed .bot a {
+		display: none;
 	}
 
 	.groupItem3.mobile-closed .tags{
@@ -172,7 +175,11 @@
 
 	.groupItem3.mobile-closed .detachedStatus.warning{
 		position: static;
-		width: 82vw;
+		width: 100%;
+	}
+
+	.groupItem3 .detachedStatus.testing:after {
+		content: none;
 	}
 
 	/*тут начинается раскрытый вариант
