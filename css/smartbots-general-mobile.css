@@ -53,13 +53,14 @@
 		display: none;
 		background: #1c3c61;
 		position: fixed;
-		left: 0px;
+		left: 0;
 		top: 64px;
 		height: 100%;
-		width: 70%;
+		width: 80vw;
 		margin-left: 0px;
 		padding-left: 21px;
 		z-index: 2005;
+		box-shadow: 0 0 20px;
 	}
 
 	#leftColumn.open {
@@ -73,6 +74,10 @@
 		padding-left: 0;
 	}
 
+	#leftColumn ul#navMenu li.header:before {
+		left: -15pt;
+	}
+
 	#leftColumn ul#navMenu li {
 		padding-left: 10px;
 	}
@@ -81,6 +86,10 @@
 		color: #cccccc;
 		font-size: 18px;
 		margin: 0.7em 0;
+	}
+
+	#leftColumn #alertLink {
+		display: none;
 	}
 
 	.account-top-menu {
