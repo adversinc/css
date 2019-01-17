@@ -71,6 +71,7 @@
 		box-shadow: 0 0 20px;
 		box-sizing: border-box;
 		overflow: auto;
+		border-top: 64px solid #1c3c61;
 	}
 
 	#leftColumn.open {
