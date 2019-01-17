@@ -25,6 +25,10 @@
 		top: 30px;
 	}
 
+	.dashboardBots .prom img {
+		width: 100%;
+	}
+
 
 	.messagingLimit {
 		height: 20vw;
@@ -68,8 +72,17 @@
 	}
 
 	/* Bots list full */
-	#botsList {
-		grid-template-columns: 50% repeat(auto-fill,50%);
+	#botsList.full {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	#botsList.full .bot {
+		width: 100%;
+	}
+
+	#botsList.full .bot .name {
+		width: 100%;
+		box-sizing: border-box;
 	}
 
 
