@@ -115,7 +115,7 @@
 		display: none;
 	}
 
-	.groupItem3.mobile-closed .bot {
+	.groupItem3 .bot {
 		position: static;
 		font-size: 15px;
 		padding: 5px 0 5px 5px;
@@ -205,7 +205,8 @@
 		position: absolute;
 		left: 8px;
 		right: 8px;
-		bottom: 118px;
+		top: 140px;
+		bottom: auto;
 		margin: 0;
 		width: auto;
 	}
@@ -213,6 +214,7 @@
 	.groupItem3.mobile-opened .services .serviceBase {
 		width: 50%;
 		box-sizing: border-box;
+		padding-bottom: 4px;
 	}
 
 	.groupItem3.mobile-opened .services .serviceBase:nth-child(2),
@@ -221,6 +223,7 @@
 	}
 
 	.groupItem3.mobile-opened .services .serviceBase .title {
+		position: static;
 		margin-top: 0;
 		width: 100%;
 		box-sizing: border-box;
@@ -229,6 +232,15 @@
 	.groupItem3.mobile-opened .services .serviceBase .numstats {
 		margin-top: 0;
 	}
+
+	.groupItem3.mobile-opened .services .serviceBase .details {
+		display: block;
+		top: 196px;
+		width: 100%;
+		height: auto;
+		padding: 1em 0;
+	}
+
 
 	.groupItem3.mobile-opened .services.subscription {
 		bottom: 8px;
