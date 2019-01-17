@@ -106,6 +106,12 @@
 
 
 	/* Dashboard group */
+
+	.groupItem3 .groupStatus {
+		position: static;
+		padding: 5px 0 5px 5px;
+	}
+
 	.groupItem3 .members {
 		position: static;
 		padding: 5px 0 5px 5px;
@@ -138,11 +144,6 @@
 
 	.groupItem3.mobile-closed .groupName {
 		position: static;
-	}
-
-	.groupItem3.mobile-closed .groupStatus {
-		position: static;
-		padding: 5px 0 5px 5px;
 	}
 
 
@@ -195,9 +196,13 @@
 		background: #eff6fb;
 		border: #1680f6 1px solid;
 		margin: 0;
-		padding: 8px;
+		padding: 28px 8px 8px;
 		z-index: 10000;
 		box-sizing: border-box;
+	}
+
+	.groupItem3.mobile-opened .groupName {
+		top: 0;
 	}
 
 	.groupItem3.mobile-opened .services {
@@ -205,7 +210,7 @@
 		position: absolute;
 		left: 8px;
 		right: 8px;
-		top: 140px;
+		top: 170px;
 		bottom: auto;
 		margin: 0;
 		width: auto;
@@ -233,7 +238,7 @@
 		margin-top: 0;
 	}
 
-	.groupItem3.mobile-opened .services .serviceBase .details {
+	.groupItem3.mobile-opened .services .serviceBase.mobile-opened .details {
 		display: block;
 		top: 196px;
 		width: 100%;
@@ -243,6 +248,7 @@
 
 
 	.groupItem3.mobile-opened .services.subscription {
+		top: auto;
 		bottom: 8px;
 		left: 8px;
 		right: 8px;
