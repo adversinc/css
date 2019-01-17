@@ -189,24 +189,27 @@
 	/* Dashboard group opened */
 	.groupItem3.mobile-opened {
 		position: fixed;
-		top: 0;
-		bottom: 0;
-		left: 0;
-		width: 100%;
+		top: 4px;
+		bottom: 4px;
+		left: 4px;
+		right: 4px;
+		width: auto;
 		background: #eff6fb;
 		border: #1680f6 1px solid;
 		margin: 0;
 		padding: 28px 8px 8px;
 		z-index: 10000;
 		box-sizing: border-box;
+		box-shadow: 0 0 10px;
 	}
 
 	.groupItem3.mobile-opened .close {
 		position: absolute;
 		top: 8px;
 		right: 8px;
+		text-decoration: none;
+		font-size: 46px;
 	}
-
 	.groupItem3.mobile-opened .close:after {
 		content: "×";
 	}
