@@ -182,9 +182,8 @@
 		content: none;
 	}
 
-	/*тут начинается раскрытый вариант
-
-		.groupItem3 {
+	/* Dashboard group opened */
+	.groupItem3.mobile-closed {
 			position: fixed;
 			top: 0;
 			bottom: 0;
@@ -198,7 +197,7 @@
 			box-sizing: border-box;
 	}
 
-		.groupItem3 .services {
+		.groupItem3.mobile-closed .services {
 			display: inline-block;
 			position: absolute;
 			left: 8px;
@@ -207,7 +206,7 @@
 			margin: 0;
 	}
 
-	.groupItem3 .services.subscription {
+	.groupItem3.mobile-closed .services.subscription {
 			bottom: 8px;
 			left: 8px;
 			right: 8px;
@@ -215,6 +214,4 @@
 			text-align: right;
 	}
 
-
-	тут он заканчивается*/
 }
