@@ -238,7 +238,7 @@
 		margin-top: 0;
 	}
 
-	.groupItem3.mobile-opened .services .serviceBase.mobile-opened .details {
+	.groupItem3.mobile-opened .services .serviceBase.hover .details {
 		display: block;
 		top: 196px;
 		width: 100%;
