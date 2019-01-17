@@ -183,7 +183,7 @@
 	}
 
 	/* Dashboard group opened */
-	.groupItem3.mobile-closed {
+	.groupItem3.mobile-opened {
 			position: fixed;
 			top: 0;
 			bottom: 0;
@@ -197,7 +197,7 @@
 			box-sizing: border-box;
 	}
 
-		.groupItem3.mobile-closed .services {
+		.groupItem3.mobile-opened .services {
 			display: inline-block;
 			position: absolute;
 			left: 8px;
@@ -206,7 +206,7 @@
 			margin: 0;
 	}
 
-	.groupItem3.mobile-closed .services.subscription {
+	.groupItem3.mobile-opened .services.subscription {
 			bottom: 8px;
 			left: 8px;
 			right: 8px;
