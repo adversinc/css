@@ -201,6 +201,16 @@
 		box-sizing: border-box;
 	}
 
+	.groupItem3.mobile-opened .close {
+		position: absolute;
+		top: 8px;
+		right: 8px;
+	}
+
+	.groupItem3.mobile-opened .close:after {
+		content: "×";
+	}
+
 	.groupItem3.mobile-opened .groupName {
 		top: 0;
 	}
