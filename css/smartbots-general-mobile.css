@@ -56,6 +56,20 @@
 		}
 	*/
 
+	/* Top menu moved to left */
+	header>.content.with-menu ul {
+		display: block;
+		position: absolute;
+		z-index: 2006;
+		border-bottom: #FFF solid 1px;
+	}
+
+	header>.content.with-menu ul li span { display: none; }
+
+	header>.content.with-menu ul .prices { display: none; }
+	header>.content.with-menu ul .store { display: none; }
+	header>.content.with-menu ul .contacts { display: none; }
+
 	#leftColumn .component--translation-invite menuAnnounce {
 		display: none;
 	}
@@ -75,7 +89,7 @@
 		box-shadow: 0 0 20px;
 		box-sizing: border-box;
 		overflow: auto;
-		border-top: 64px solid #1c3c61;
+		border-top: 120px solid #1c3c61;
 	}
 
 	#leftColumn.open {
