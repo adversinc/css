@@ -2,4 +2,8 @@
 	body.v2 header {
 		height: auto;
 	}
+
+	#leftColumn.open:after {
+		content: "Welcome to SmartBots";
+	}
 }
