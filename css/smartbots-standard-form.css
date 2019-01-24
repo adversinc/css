@@ -29,4 +29,10 @@
 		margin-left: 21vw;
 	}
 
+	/* blocksMenu */
+	.blocksMenu li a, .blocksMenuAuto>ul li, .blocksMenuAuto>ul li.autoBlocked a {
+		width: 100%;
+		box-sizing: border-box;
+	}
+
 }
