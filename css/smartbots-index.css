@@ -2,7 +2,7 @@
 	body.v2 header {
 		height: auto;
 	}
-	
+
 	/* Adjust top menu for index */
 	header>.content ul li {
 		float: left;
@@ -19,5 +19,7 @@
 	body.v2 header>.content.with-menu ul {
 		margin-top: 14px;
 		border: 0;
+		width: 84vw;
+		box-sizing: border-box;
 	}
 }
