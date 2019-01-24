@@ -17,6 +17,7 @@
 		position: absolute;
 		left: 5vw;
 		top: 3vw;
+		z-index: 2010;
 	}
 
 	header>.content.with-menu .menu-toggle {
@@ -57,6 +58,7 @@
 	*/
 
 	/* Top menu moved to left */
+	body.v2 header>.content.with-menu ul,
 	header>.content.with-menu ul {
 		display: block;
 		position: absolute;
