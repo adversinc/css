@@ -2,4 +2,25 @@
 	.docsSearchBox > .content {
 		width: 100vw;
 	}
+
+	#contentsTable {
+		width: 90%;
+	}
+
+	#contentsTable .selflink,
+	#contentsTable a {
+		color: #cccccc;
+		font-size: 18px;
+		margin: 0.7em 0;
+	}
+
+	.floatone img {
+		max-width: 100%;
+		height: auto;
+		box-sizing: border-box;
+	}
+
+	.wikiBody iframe {
+		max-width: 100%;
+	}
 }

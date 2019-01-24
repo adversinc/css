@@ -89,6 +89,10 @@
 		opacity: 0.2;
 	}
 
+	#leftColumn h2 {
+		color: #FFF;
+	}
+
 	#leftColumn ul#navMenu li.header {
 		color: #e6e6e6;
 		font-size: 20px;
