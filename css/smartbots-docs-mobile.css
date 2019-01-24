@@ -1,0 +1,7 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+	img.alignright {
+		display: block;
+		float: none!important;
+		margin: 1em auto!important;
+	}
+}
