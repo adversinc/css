@@ -2,8 +2,22 @@
 	body.v2 header {
 		height: auto;
 	}
+	
+	/* Adjust top menu for index */
+	header>.content ul li {
+		float: left;
+		width: 100%;
+		display: block!important;
+		padding-left: 4px;
+	}
 
-	#leftColumn.open:after {
-		content: "Welcome to SmartBots";
+	header>.content ul li span {
+		display: inline;
+	}
+
+	/* */
+	body.v2 header>.content.with-menu ul {
+		margin-top: 14px;
+		border: 0;
 	}
 }
