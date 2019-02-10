@@ -1,0 +1,32 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+	
+		.page-addonsx-liveims .bot{
+			height: 65vw;
+			margin: 3em 0;
+		}
+		
+		.dashboard-bots .bot .image{
+			width: 185px;
+			height: 140px;
+			padding: 18vw 10px 10px 10px;
+		}
+		
+		.dashboard-bots .bot .name{
+			top: 4px;
+			left: 17px;
+			font-size: 22px;
+		}
+
+
+		.page-addonsx-liveims .bot .details{
+			top: 5vw;
+			left: 50vw;
+		}
+
+
+
+
+
+
+}
