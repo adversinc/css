@@ -1,0 +1,38 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+	.fieldname {
+		display: block;
+		font-size: 17px;
+	}
+
+
+	.fieldvalue {
+		display: block;
+		width: 80vw;
+		font-size: 15px;
+	}
+
+
+	form.modern.generic-form select {
+		width: 80vw;
+		letter-spacing: 0.5px;
+	}
+
+	form.modern.generic-form .field_description {
+		font-size: 1em !important;
+		padding: .4em 0;
+	}
+
+	form.modern.generic-form input[type=submit] {
+		height: 12vw;
+		width: 40vw;
+		margin-left: 21vw;
+	}
+
+	/* blocksMenu */
+	.blocksMenu li a, .blocksMenuAuto>ul li, .blocksMenuAuto>ul li.autoBlocked a {
+		width: 100%;
+		box-sizing: border-box;
+	}
+
+}

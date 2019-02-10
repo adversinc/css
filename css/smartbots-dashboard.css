@@ -105,112 +105,174 @@
 	}
 
 
-	/*тут начинается свернутый вариант
+	/* Dashboard group */
 
-	.groupItem3{
-		margin: 46px 0 40px 0;
-		width: 82vw;
+	.groupItem3 .groupStatus {
+		position: static;
+		padding: 5px 0 5px 5px;
 	}
 
-	.groupItem3 a.deleteGroup{
+	.groupItem3 .members {
+		position: static;
+		padding: 5px 0 5px 5px;
+	}
+
+	.groupItem3 .tags {
+		display: none;
+	}
+
+	.groupItem3 .bot {
+		position: static;
+		font-size: 15px;
+		padding: 5px 0 5px 5px;
+	}
+
+	.groupItem3.NOTPAID .groupStatus {
+		background-position: 70px center;
+	}
+
+	/* Dash group closed */
+	.groupItem3.mobile-closed {
+		margin: 1em 0;
+		width: 100%;
+	}
+
+	.groupItem3.mobile-closed a.deleteGroup {
 		position: static;
 		display: block;
 	}
 
-	.groupItem3 .groupName{
+	.groupItem3.mobile-closed .groupName {
 		position: static;
 	}
 
-	.groupItem3 .groupStatus{
-		position: static;
-		padding: 5px 0 5px 5px;
-	}
 
-	.groupItem3 .members{
-		position: static;
-		padding: 5px 0 5px 5px;
-	}
-
-	.groupItem3 .members .info:after{
+	.groupItem3.mobile-closed .members .info:after {
 		display: none;
 	}
 
-	.groupItem3 .members .info span{
+	.groupItem3.mobile-closed .members .info span {
 		font-size: 15px;
 	}
 
-	.groupItem3 .members .details{
+	.groupItem3.mobile-closed .members .details {
 		display: none;
 	}
 
-	.groupItem3 .linksBlock{
+	.groupItem3.mobile-closed .linksBlock {
 		width: 26vw;
 		font-size: 15px;
 	}
 
-	.groupItem3 .bot{
-			position: static;
-			font-size: 15px;
-		padding: 5px 0 5px 5px;
-	}
 
-	.groupItem3 .bot a{
-		font-size: 12px;
-	}
-
-	.groupItem3 .tags{
+	.groupItem3.mobile-closed .bot a {
 		display: none;
 	}
 
-	.groupItem3 .services{
+	.groupItem3.mobile-closed .services {
 		display: none;
 	}
 
-	.groupItem3 .detachedStatus{
+	.groupItem3.mobile-closed .detachedStatus {
 		position: static;
 	}
 
-	.groupItem3 .detachedStatus.warning{
+	.groupItem3.mobile-closed .detachedStatus.warning {
 		position: static;
-		width: 82vw;
+		width: 100%;
+	}
+
+	.groupItem3 .detachedStatus.testing:after {
+		content: none;
+	}
+
+	/* Dashboard group opened */
+	.groupItem3.mobile-opened {
+		position: fixed;
+		top: 4px;
+		bottom: 4px;
+		left: 4px;
+		right: 4px;
+		width: auto;
+		background: #eff6fb;
+		border: #1680f6 1px solid;
+		margin: 0;
+		padding: 28px 8px 8px;
+		z-index: 10000;
+		box-sizing: border-box;
+		box-shadow: 0 0 10px;
+	}
+
+	.groupItem3.mobile-opened .close {
+		position: absolute;
+		top: 8px;
+		right: 8px;
+		text-decoration: none;
+		font-size: 46px;
+	}
+	.groupItem3.mobile-opened .close:after {
+		content: "×";
+	}
+
+	.groupItem3.mobile-opened .groupName {
+		top: 0;
+	}
+
+	.groupItem3.mobile-opened .services {
+		display: block;
+		position: absolute;
+		left: 8px;
+		right: 8px;
+		top: 170px;
+		bottom: auto;
+		margin: 0;
+		width: auto;
+	}
+
+	.groupItem3.mobile-opened .services .serviceBase {
+		width: 50%;
+		box-sizing: border-box;
+		padding-bottom: 4px;
+	}
+
+	.groupItem3.mobile-opened .services .serviceBase:nth-child(2),
+	.groupItem3.mobile-opened .services .serviceBase:nth-child(4) {
+		padding-right: 4px;
+	}
+
+	.groupItem3.mobile-opened .services .serviceBase .title {
+		position: static;
+		margin-top: 0;
+		width: 100%;
+		box-sizing: border-box;
+	}
+
+	.groupItem3.mobile-opened .services .serviceBase .numstats {
+		margin-top: 0;
+	}
+
+	.groupItem3.mobile-opened .services .serviceBase.hover .details {
+		display: block;
+		top: 196px;
+		width: 100%;
+		height: auto;
+		padding: 1em 0;
 	}
 
 
-
-	тут он заканчивается*/
-	/*тут начинается раскрытый вариант
-
-		.groupItem3 {
-			position: fixed;
-			top: 0;
-			bottom: 0;
-			left: 0;
-			right: 0;
-			background: #eff6fb;
-			border: #1680f6 1px solid;
-			margin: 0;
-			padding: 8px;
-			z-index: 10000;
-			box-sizing: border-box;
+	.groupItem3.mobile-opened .services.subscription {
+		top: auto;
+		bottom: 8px;
+		left: 8px;
+		right: 8px;
+		width: auto;
+		text-align: right;
 	}
 
-		.groupItem3 .services {
-			display: inline-block;
-			position: absolute;
-			left: 8px;
-			right: 8px;
-			bottom: 118px;
-			margin: 0;
+	.groupItem3.mobile-opened .services.subscription .title {
+		width: 100%;
 	}
-
-	.groupItem3 .services.subscription {
-			bottom: 8px;
-			left: 8px;
-			right: 8px;
-			width: auto;
-			text-align: right;
+	.groupItem3.mobile-opened .services.subscription .service {
+		width: 100%;
 	}
-
-
-	тут он заканчивается*/
 }

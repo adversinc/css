@@ -17,6 +17,7 @@
 		position: absolute;
 		left: 5vw;
 		top: 3vw;
+		z-index: 2010;
 	}
 
 	header>.content.with-menu .menu-toggle {
@@ -46,11 +47,33 @@
 		display: none;
 	}
 
-/*
-	#pageBody {
-		display: none;
+	.docsSearchBox > .content {
+		width: 100vw;
 	}
-*/
+
+	/*
+		#pageBody {
+			display: none;
+		}
+	*/
+
+	/* Top menu moved to left */
+	body.v2 header>.content.with-menu ul,
+	header>.content.with-menu ul {
+		display: block;
+		position: absolute;
+		width: 85vw;
+		overflow: hidden;
+		z-index: 2006;
+		border-bottom: #FFF solid 1px;
+		line-height: 52px;
+	}
+
+	header>.content.with-menu ul li span { display: none; }
+
+	header>.content.with-menu ul .prices { display: none; }
+	header>.content.with-menu ul .store { display: none; }
+	header>.content.with-menu ul .contacts { display: none; }
 
 	#leftColumn .component--translation-invite menuAnnounce {
 		display: none;
@@ -61,15 +84,17 @@
 		background: #1c3c61;
 		position: fixed;
 		left: 0;
-		top: 64px;
+		top: 0;
 		height: 100%;
 		width: 85vw;
 		margin-left: 0px;
 		padding-left: 21px;
-		padding-top: 54px;
+		padding-top: 0;
 		z-index: 2005;
 		box-shadow: 0 0 20px;
 		box-sizing: border-box;
+		overflow: auto;
+		border-top: 120px solid #1c3c61;
 	}
 
 	#leftColumn.open {
@@ -85,6 +110,10 @@
 		left: 85vw;
 		right: 0;
 		opacity: 0.2;
+	}
+
+	#leftColumn h2 {
+		color: #FFF;
 	}
 
 	#leftColumn ul#navMenu li.header {
