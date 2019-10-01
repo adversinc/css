@@ -112,6 +112,13 @@
 
 
 	/* Dashboard group */
+	.groupItem3 {
+		flex-direction: column;
+		flex-wrap: initial;
+		overflow: auto;
+	}
+
+
 	.groupItem3 .linksBlock {
 		width: 90%!important;
 	}
@@ -130,7 +137,6 @@
 
 	.groupItem3 .members .details {
 		position: static;
-		height: auto!important;
 		padding: 0;
 	}
 
@@ -142,6 +148,7 @@
 		position: static;
 		font-size: 15px;
 		padding: 5px 0 5px 5px;
+		width: auto;
 	}
 
 	.groupItem3.NOTPAID .groupStatus {
@@ -206,9 +213,6 @@
 	/* Dashboard group opened */
 	.groupItem3.mobile-opened {
 		position: fixed;
-		flex-direction: column;
-		flex-wrap: initial;
-		overflow: auto;
 		top: 4px;
 		bottom: 4px;
 		left: 4px;
@@ -236,6 +240,10 @@
 
 	.groupItem3.mobile-opened .groupName {
 		top: 0;
+	}
+
+	.groupItem3.mobile-opened .members:hover .details {
+		height: auto;
 	}
 
 	.groupItem3.mobile-opened .services {
