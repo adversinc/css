@@ -112,6 +112,9 @@
 
 
 	/* Dashboard group */
+	.groupItem3 .linksBlock {
+		width: 90%!important;
+	}
 
 	.groupItem3 .groupStatus {
 		position: static;
@@ -121,6 +124,14 @@
 	.groupItem3 .members {
 		position: static;
 		padding: 5px 0 5px 5px;
+		height: auto;
+		width: auto;
+	}
+
+	.groupItem3 .members .details {
+		position: static;
+		height: auto!important;
+		padding: 0;
 	}
 
 	.groupItem3 .tags {
@@ -230,6 +241,7 @@
 	.groupItem3.mobile-opened .services {
 		display: block;
 		position: static;
+		flex: auto 0 0;
 		left: 8px;
 		right: 8px;
 		top: 170px;
