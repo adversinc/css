@@ -195,6 +195,9 @@
 	/* Dashboard group opened */
 	.groupItem3.mobile-opened {
 		position: fixed;
+		flex-direction: column;
+		flex-wrap: initial;
+		overflow: auto;
 		top: 4px;
 		bottom: 4px;
 		left: 4px;
@@ -214,7 +217,7 @@
 		top: 8px;
 		right: 8px;
 		text-decoration: none;
-		font-size: 46px;
+		font-size: 66px;
 	}
 	.groupItem3.mobile-opened .close:after {
 		content: "×";
@@ -242,24 +245,20 @@
 	}
 
 	.groupItem3.mobile-opened .services .serviceBase .title {
-		position: static;
-		margin-top: 0;
-		width: 100%;
-		box-sizing: border-box;
+		position: static!important;
+		margin-top: 0!important;
+		width: 100%!important;
 	}
 
 	.groupItem3.mobile-opened .services .serviceBase .numstats {
-		margin-top: 0;
+		margin-top: 0!important;
 	}
 
-	.groupItem3.mobile-opened .services .serviceBase.hover .details {
-		display: block;
-		top: 196px;
+	.groupItem3.mobile-opened .services .service .details {
+		position: static;
 		width: 100%;
 		height: auto;
-		padding: 1em 0;
 	}
-
 
 	.groupItem3.mobile-opened .services.subscription {
 		top: auto;
