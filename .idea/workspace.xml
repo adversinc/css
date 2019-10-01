@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1132707-ce45-4e4f-bba1-ea1c47f85376" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/smartbots-dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/smartbots-dashboard.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -10,11 +9,6 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>translatung</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -51,7 +45,7 @@
       <option name="presentableId" value="Default" />
       <updated>1555504445122</updated>
       <workItem from="1555504446631" duration="1296000" />
-      <workItem from="1569970969075" duration="1625000" />
+      <workItem from="1569970969075" duration="2156000" />
     </task>
     <servers />
   </component>

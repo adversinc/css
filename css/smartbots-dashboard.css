@@ -229,7 +229,7 @@
 
 	.groupItem3.mobile-opened .services {
 		display: block;
-		position: absolute;
+		position: static;
 		left: 8px;
 		right: 8px;
 		top: 170px;
@@ -257,7 +257,12 @@
 	.groupItem3.mobile-opened .services .service .details {
 		position: static;
 		width: 100%;
+	}
+
+	.groupItem3.mobile-opened .services .service.hover .details,
+	.groupItem3.mobile-opened .services .service.waitForHI:hover .details {
 		height: auto;
+		padding-bottom: 1.5em;
 	}
 
 	.groupItem3.mobile-opened .services.subscription {
@@ -273,6 +278,11 @@
 		width: 100%;
 	}
 	.groupItem3.mobile-opened .services.subscription .service {
+		width: 100%;
+	}
+
+	.groupItem3.mobile-opened .detachedStatus {
+		flex: auto 0 0;
 		width: 100%;
 	}
 }
