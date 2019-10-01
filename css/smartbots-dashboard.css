@@ -236,14 +236,9 @@
 	}
 
 	.groupItem3.mobile-opened .services .serviceBase {
-		width: 50%;
+		width: 100%;
 		box-sizing: border-box;
 		padding-bottom: 4px;
-	}
-
-	.groupItem3.mobile-opened .services .serviceBase:nth-child(2),
-	.groupItem3.mobile-opened .services .serviceBase:nth-child(4) {
-		padding-right: 4px;
 	}
 
 	.groupItem3.mobile-opened .services .serviceBase .title {
