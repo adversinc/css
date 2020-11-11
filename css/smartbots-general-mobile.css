@@ -60,7 +60,7 @@
 	/* Top menu moved to left */
 	body.v2 header>.content.with-menu ul,
 	header>.content.with-menu ul {
-		display: block;
+		display: flex;
 		position: absolute;
 		width: 85vw;
 		overflow: hidden;
